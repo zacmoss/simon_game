@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Simon Game</title>
+      <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="page">
+      <div id="gameContainer">
+        <div class="row">
+          <div onclick="panelClick('green')" class="panel" id="green">
+          </div>
+          <div onclick="panelClick('red')" class="panel" id="red">
+          </div>
+        </div>
+        <div class="row">
+          <div onclick="panelClick('yellow')" class="panel" id="yellow">
+          </div>
+          <div onclick="panelClick('blue')" class="panel" id="blue">
+          </div>
+        </div>
+      </div>
+      
+      <div id="middleCircle">
+        <div id="innerContainer">
+          <div id="title">
+            <span>Simon</span>
+          </div>
+          <div id="middleRow">
+            <div id="countDiv">
+              <div id="countScreen">
+                
+              </div>
+              <div>
+            Count
+              </div>
+            </div>
+            <div id="startDiv">
+              <div onclick="startButton()" id="startButton" class="cursorHover">
+              </div>
+              <div>
+            Start
+              </div>
+            </div>
+            <div id="strictDiv">
+              <div id="strictLight">
+              </div>
+              <div onclick="strictButton()" id="strictButton" class="cursorHover">
+              </div>
+              <div>
+            Strict
+              </div>
+            </div>
+          </div>
+          <div id="onOff">
+            <div id="off">OFF</div>
+            <div id="onOffSwitch">
+              <div onclick="onOffSwitch('off')" id="left" class="cursorHover">
+              </div>
+              <div onclick="onOffSwitch('on')"
+                   id="right" class="cursorHover">
+              </div>
+            </div>
+            <div id="on">ON</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+</html>

@@ -1,0 +1,147 @@
+#page {
+  display: flex;
+  justify-content: space-around;
+}
+#gameContainer {
+  margin: 3rem 0;
+  height: 400px;
+  width: 400px;
+  border-radius: 50%;
+  border: 15px grey solid;
+  position: relative;
+}
+.row {
+  display: flex;
+}
+.panel {
+  height: 200px;
+  width: 200px;
+}
+#green {
+  border-radius: 95% 0 0 0;
+  background-color: #00A756;
+  border-right: 3px grey solid;
+  border-bottom: 3px grey solid;
+}
+#red {
+  border-radius: 0 95% 0 0;
+  background-color: #A30A1C;
+  border-left: 3px grey solid;
+  border-bottom: 3px grey solid;
+}
+#yellow {
+  border-radius: 0 0 0 100%;
+  background-color: #CDA636;
+  border-right: 3px grey solid;
+  border-top: 3px grey solid;
+}
+#blue {
+  border-radius: 0 0 100% 0;
+  background-color: #054B8A;
+  border-left: 3px grey solid;
+  border-top: 3px grey solid;
+}
+#middleCircle {
+  position: absolute;
+  top: 150px;
+  height: 225px;
+  width: 225px;
+  border-radius: 50%;
+  border: 10px gray solid;
+  background-color: white;
+}
+#innerContainer {
+  margin: 2rem;
+}
+#title {
+  font-size: 40px;
+  text-align: center;
+  
+}
+#middleRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  
+}
+#countDiv {
+  text-align: center;
+}
+#countScreen {
+  height: 20px;
+  width: 40px;
+  margin-bottom: .5rem;
+  margin-top: 9px;
+  background-color: black;
+  color: red;
+  border-radius: 5px;
+  padding-top: 3px;
+  text-align: center;
+}
+#startDiv {
+  text-align: center;
+  
+}
+#startButton {
+  height: 20px;
+  width: 20px;
+  margin-top: 9px;
+  margin-bottom: .5rem;
+  margin-left: 3px;
+  background-color: red;
+  border: 2px gray solid;
+  border-radius: 50%;
+}
+#strictDiv {
+  text-align: center;
+  
+}
+#strictLight {
+  height: 6px;
+  width: 6px;
+  margin-bottom: 3px;
+  margin-left: 15px;
+  background-color: black;
+  border-radius: 50%;
+}
+#strictButton {
+  height: 20px;
+  width: 20px;
+  margin-bottom: .5rem;
+  margin-left: 6px;
+  background-color: yellow;
+  border: 2px gray solid;
+  border-radius: 50%;
+}
+#onOff {
+  margin-top: 1rem;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+}
+#on {
+  margin-left: 4px;
+  margin-top: 3px;
+}
+#off {
+  margin-right: 4px;
+  margin-top: 3px;
+}
+#onOffSwitch {
+  display: flex;
+  justify-content: center;
+  margin: 2px;
+}
+#right {
+  background-color: black;
+  height: 15px;
+  width: 15px;
+}
+#left {
+  background-color: blue;
+  height: 15px;
+  width: 15px;
+}
+.cursorHover:hover {
+  cursor: pointer;
+}
