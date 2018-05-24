@@ -133,12 +133,12 @@
   margin: 2px;
 }
 #right {
-  background-color: black;
+  background-color: blue;
   height: 15px;
   width: 15px;
 }
 #left {
-  background-color: blue;
+  background-color: black;
   height: 15px;
   width: 15px;
 }

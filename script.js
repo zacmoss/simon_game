@@ -13,7 +13,7 @@ let computerArray = [];
 let spotInCount = 0;
 let strictMode = false;
 let gameStarted = false;
-let off = true;
+let off = false;
 
 var greenAudio = new Audio("https://s3.amazonaws.com/freecodecamp/simonSound1.mp3");
 var redAudio = new Audio("https://s3.amazonaws.com/freecodecamp/simonSound2.mp3");
